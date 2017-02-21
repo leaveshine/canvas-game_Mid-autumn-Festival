@@ -1,0 +1,10 @@
+var canvas = document.getElementById('canvas');
+var ctx = canvas.getContext('2d');
+var moonCakes = [];
+var imgRan;
+var score = 0;
+var t = 6000;
+var lastTime = 0;
+var interval = 400;
+var state = 1;
+window.localStorage;
